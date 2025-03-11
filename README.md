@@ -1,6 +1,6 @@
 # Income Levels Prediction
 
-<img src="images/income.png" alt="income" style="zoom:50%;" />
+<img src="images/income.png" alt="income" style="width:40%;" />
 
 Using the US Census Bureau dataset, I developed a **Neural Network model** to predict whether an individual's income exceeds $50,000 per year based on demographic attributes. Additionally, a sensitivity analysis was conducted to identify the most influential predictors, highlighting their intuitive correlation with income levels.
 
@@ -26,13 +26,13 @@ To enhance interpretability, the ANN model was designed with a simple architectu
 
 The topology of the resulting network is as follows:
 
-![](/Users/apple/Desktop/income/images/ANN.png)
+<img src="images/ANN.png" alt="income" style="width:70%;" />
 
 ## Step 3: Predictive Performance
 
 Using the 20% test data, the overall accuracy is 85%, demonstrating a strong predictive power. The confusion matrix obtained using the 20% test data:
 
-<img src="/Users/apple/Desktop/income/images/confusion matrix.png" style="zoom:70%;" />
+<img src="images/confusion matrix.png" style="width:50%;" />
 
 The model achieved a sensitivity of 0.54 and a specificity of 0.94. The high False Negative rate suggests that many individuals earning over $50K are misclassified as earning less. While this conservative error helps mitigate financial risk by preventing loans to potentially risky applicants, it may also limit customer acquisition by denying credit to eligible individuals.
 
@@ -61,9 +61,9 @@ Among numerical variables, **capital-net** is the most influential, while **demo
 
 The histogram of **capital-net** reveals a clear separation between income groups, emphasizing its strong predictive power. The distinct distribution gap between higher and lower income categories underscores its value in classifying individuals by income level. In contrast, the histogram of **demogweight** shows significant overlap between income groups, indicating minimal impact on income prediction.
 
-![](/Users/apple/Desktop/income/images/capital net.png)
+<img src="images/capital net.png" alt="income" style="width:50%;" />
 
-![](/Users/apple/Desktop/income/images/demogweight.png)
+<img src="images/demogweight.png" alt="income" style="width:50%;" />
 
 ### The Most Important Categorical Variables
 
@@ -71,12 +71,13 @@ The most influential categorical variables in predicting income are **education 
 
 **Education Level:** Higher education levels strongly correlate with higher income. A significant increase in the proportion of individuals earning over \$50K is observed among those with a **Bachelor’s degree or higher**, whereas most individuals with lower education levels fall into the ≤\$50K income category.
 
-<img src="/Users/apple/Desktop/income/images/education.png"  />
+<img src="images/education.png" alt="income" style="width:70%;" />
 
 **Marital status:** Nearly all individuals who are not married earn ≤\$50K, while those who are **married with a spouse present** show a significantly higher proportion of incomes exceeding \$50K.
 
-![](/Users/apple/Desktop/income/images/marital status.png)
+<img src="images/marital status.png" alt="income" style="width:70%;" />
+
 
 **Occupation:** Individuals working in Other Services and Private House Services predominantly earn ≤\$50K. Similarly, most manual laborers, including Handlers-Cleaners and Machine Operators/Inspectors, fall into the low income category. In contrast, a significantly higher proportion of individuals earning >\$50K are found in **executive, managerial, and professional specialty roles**.
 
-![](/Users/apple/Desktop/income/images/occupation.png)
+<img src="images/occupation.png" alt="income" style="width:70%;" />
