@@ -1,8 +1,8 @@
 # Income Levels Prediction
 
-<img src="images/income.png" alt="income" style="width:40%;" />
-
 **What kinds of individuals tend to earn more—and why?**
+
+<img src="images/income.png" alt="income" style="width:40%;" />
 
 As a student passionate about uncovering data-driven insights, I set out to explore how factors like education, occupation, and age influence income levels in the U.S. population.
 
