@@ -2,7 +2,12 @@
 
 <img src="images/income.png" alt="income" style="width:40%;" />
 
-Using the US Census Bureau dataset, I developed a **Neural Network model** to predict whether an individual's income exceeds $50,000 per year based on demographic attributes. Additionally, a sensitivity analysis was conducted to identify the most influential predictors, highlighting their intuitive correlation with income levels.
+**What kinds of individuals tend to earn more—and why?**
+
+As a student passionate about uncovering data-driven insights, I set out to explore how factors like education, occupation, and age influence income levels in the U.S. population.
+
+Using the US Census Bureau dataset, I built a Neural Network model to predict whether an individual’s income exceeds $50,000 per year based on demographic attributes. To enhance model interpretability, I conducted a sensitivity analysis to pinpoint the most influential predictors—offering a clearer understanding of the traits most closely tied to higher income.
+
 
 ## Step 1: Data Preprocessing
 
